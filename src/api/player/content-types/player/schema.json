@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "players",
+  "info": {
+    "singularName": "player",
+    "pluralName": "players",
+    "displayName": "Player"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "characteristics": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "age": {
+      "type": "decimal"
+    },
+    "height": {
+      "type": "decimal"
+    },
+    "marketValue": {
+      "type": "decimal"
+    },
+    "contractTime": {
+      "type": "decimal"
+    },
+    "nationality": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "foot": {
+      "type": "string"
+    }
+  }
+}
